@@ -51,10 +51,10 @@ class BuffView @JvmOverloads constructor(
         val timeToShow: Long = (buff.time_to_show * 1000).toLong()
         countDownTimer = createCountdownTimer(timeToShow)
         val senderName = "${buff.author.first_name} ${buff.author.last_name}"
-        sender.setName(senderName)
+        sender.setNameText(senderName)
         question.apply {
-            setQuestion(buff.question.title)
-            setCountDown(buff.time_to_show.toString())
+            setQuestionText(buff.question.title)
+            setCountDownText(buff.time_to_show.toString())
         }
         adapter.update(buff.answers)
         animateIn()
@@ -74,7 +74,7 @@ class BuffView @JvmOverloads constructor(
         return object : CountDownTimer(timeToShow, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 val countDownString = (millisUntilFinished / 1000).toString()
-                question.setCountDown(countDownString)
+                question.setCountDownText(countDownString)
             }
             override fun onFinish() {
                 animateOut()

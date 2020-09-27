@@ -25,12 +25,12 @@ class BuffQuestion @JvmOverloads constructor(
         question_time_progress.visibility = View.GONE
     }
 
-    fun setQuestion(question: String) {
+    fun setQuestionText(question: String) {
         question_time_progress.visibility = View.VISIBLE
         question_text.text = question
     }
 
-    fun setCountDown(seconds: String) {
+    fun setCountDownText(seconds: String) {
         question_time.text = seconds
     }
 }

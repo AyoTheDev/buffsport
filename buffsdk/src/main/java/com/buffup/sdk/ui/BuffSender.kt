@@ -27,7 +27,7 @@ class BuffSender @JvmOverloads constructor(
         ImageLoaderUtils.loadImage(context, path, sender_image)
     }
 
-    fun setName(name: String) {
+    fun setNameText(name: String) {
         sender_name.text = name
     }
 }
