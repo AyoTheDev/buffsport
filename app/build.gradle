@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    buildToolsVersion globalConfiguration["buildToolsVersion"]
+    compileSdkVersion globalConfiguration["compiledSdkVersion"]
+
+    defaultConfig {
+        applicationId globalConfiguration["applicationId"]
+        minSdkVersion globalConfiguration["minSdkVersion"]
+        targetSdkVersion globalConfiguration["targetSdkVersion"]
+        versionCode globalConfiguration["versionCode"]
+        versionName globalConfiguration["versionName"]
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+
+}
+
+dependencies {
+    implementation project(':buffsdk')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    def dependencies = rootProject.ext.applicationDependencies
+    def testDependencies = rootProject.ext.testDependencies
+
+    implementation dependencies.gson
+    implementation dependencies.kotlinCoroutinesCore
+    implementation dependencies.kotlinCoroutinesAndroid
+    implementation dependencies.kotlin
+    implementation dependencies.kotlinCore
+    implementation dependencies.supportRecyclerView
+    implementation dependencies.supportDesign
+    implementation dependencies.viewModel
+    implementation dependencies.viewModelExtensions
+    implementation dependencies.archRuntime
+    implementation dependencies.constraintLayout
+    implementation dependencies.appCompat
+    implementation dependencies.dagger
+    implementation dependencies.daggerSupport
+    implementation dependencies.okHttp
+    kapt dependencies.daggerProcessor
+    kapt dependencies.daggerCompiler
+    implementation dependencies.timber
+    implementation dependencies.glide
+    implementation dependencies.retrofit
+    implementation dependencies.retrofitGsonMap
+    testImplementation testDependencies.junit
+    testImplementation testDependencies.mockito
+    testImplementation testDependencies.mockitoInLine
+    testImplementation testDependencies.mockitoKotlin
+    testImplementation testDependencies.archCore
+    androidTestImplementation testDependencies.runner
+
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.9'
+}

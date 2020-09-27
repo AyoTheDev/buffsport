@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9669244-11a0-4e36-8206-6dacd685ab40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10.1_WXGA_Tablet_API_23" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hoqbysU33FgMQmbVNbqLHCjVwn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="10.1_WXGA_Tablet_API_23 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.buffup.app" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/test/java/com/buffup/app" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.buffup.app" />
+      <recent name="com.buffup.sdk" />
+      <recent name="com.buffup.sdk.utils" />
+      <recent name="com.buffup.sdk.models.stream" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.buffup.sdk.ui" />
+      <recent name="com.buffup.app.ui.activity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.buffup.sdk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayool\OneDrive\Documents\sportbuff\AndroidTechTest\SportBuff\app\src\test\java\com\buffup\app" />
+      <recent name="C:\Users\ayool\OneDrive\Documents\sportbuff\AndroidTechTest\SportBuff\buffsdk\src\main\res\layout" />
+      <recent name="C:\Users\ayool\OneDrive\Documents\sportbuff\AndroidTechTest\SportBuff\buffsdk\src\main\java\com\buffup\sdk\model" />
+      <recent name="C:\Users\ayool\OneDrive\Documents\sportbuff\AndroidTechTest\SportBuff\buffsdk\src\main" />
+      <recent name="C:\Users\ayool\OneDrive\Documents\sportbuff\AndroidTechTest\SportBuff\app\src\main\java\com\buffup\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.MainViewModelTest.loadBuffsTest">
+    <configuration name="MainViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SportBuff-app" />
+      <option name="PACKAGE_NAME" value="com.buffup.app" />
+      <option name="MAIN_CLASS_NAME" value="com.buffup.app.MainViewModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainViewModelTest.loadBuffsTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SportBuff-app" />
+      <option name="PACKAGE_NAME" value="com.buffup.app" />
+      <option name="MAIN_CLASS_NAME" value="com.buffup.app.MainViewModelTest" />
+      <option name="METHOD_NAME" value="loadBuffsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Buff App-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Buff App-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportBuff-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="SportBuff-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Buff App-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.MainViewModelTest.loadBuffsTest" />
+        <item itemvalue="Android JUnit.MainViewModelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9669244-11a0-4e36-8206-6dacd685ab40" name="Default Changelist" comment="" />
+      <created>1600687867836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600687867836</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2234" y="872" key="#app" timestamp="1601148270110">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2234" y="872" key="#app/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601148270110" />
+    <state x="744" y="295" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600688747101">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="744" y="295" width="1071" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1600688747101" />
+    <state x="1328" y="294" width="2260" height="1676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601213478101">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1328" y="294" width="2260" height="1676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213478101" />
+    <state x="2306" y="875" key="#com.intellij.ide.util.MemberChooser" timestamp="1601209524930">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2306" y="875" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601209524930" />
+    <state x="2337" y="1084" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601202084829">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2337" y="1084" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601202084829" />
+    <state x="2311" y="1039" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601199524776">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2311" y="1039" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601199524776" />
+    <state x="2133" y="342" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601211821694">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2133" y="342" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601211821694" />
+    <state x="2245" y="906" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601204304580">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2245" y="906" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601204304580" />
+    <state x="2287" y="823" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1601202075394">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2287" y="823" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601202075394" />
+    <state x="2095" y="914" key="AndroidCreateResourceFileDialog" timestamp="1601206758590">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2095" y="914" key="AndroidCreateResourceFileDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601206758590" />
+    <state x="2282" y="727" key="AndroidProcessChooserDialog" timestamp="1601208320368">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2282" y="727" key="AndroidProcessChooserDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601208320368" />
+    <state x="1521" y="482" key="AndroidProcessChooserDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1600693513192" />
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1600693736033">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="460" height="466" key="DebuggerActiveHint/0.23.2560.1338@0.23.2560.1338" timestamp="1600693736033" />
+    <state x="2295" y="914" key="FileChooserDialogImpl" timestamp="1601201135952">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2295" y="914" key="FileChooserDialogImpl/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601201135952" />
+    <state x="2328" y="1025" key="Github.ShareDialog" timestamp="1601213801847">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2328" y="1025" key="Github.ShareDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213801847" />
+    <state width="2400" height="555" key="GridCell.Tab.0.bottom" timestamp="1601213525732">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="555" key="GridCell.Tab.0.bottom/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213525732" />
+    <state width="1075" height="453" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
+    <state width="1075" height="453" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state width="2400" height="555" key="GridCell.Tab.0.center" timestamp="1601213525732">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="555" key="GridCell.Tab.0.center/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213525732" />
+    <state width="1075" height="453" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209593" />
+    <state width="1075" height="453" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342519" />
+    <state width="2400" height="555" key="GridCell.Tab.0.left" timestamp="1601213525732">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="555" key="GridCell.Tab.0.left/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213525732" />
+    <state width="1075" height="453" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209593" />
+    <state width="1075" height="453" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342519" />
+    <state width="2400" height="555" key="GridCell.Tab.0.right" timestamp="1601213525732">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="555" key="GridCell.Tab.0.right/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213525732" />
+    <state width="1075" height="453" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
+    <state width="1075" height="453" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state width="2400" height="679" key="GridCell.Tab.1.bottom" timestamp="1601208623293">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="679" key="GridCell.Tab.1.bottom/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601208623293" />
+    <state width="1075" height="453" key="GridCell.Tab.1.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209595" />
+    <state width="1075" height="453" key="GridCell.Tab.1.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state width="2400" height="679" key="GridCell.Tab.1.center" timestamp="1601208623293">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="679" key="GridCell.Tab.1.center/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601208623293" />
+    <state width="1075" height="453" key="GridCell.Tab.1.center/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
+    <state width="1075" height="453" key="GridCell.Tab.1.center/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state width="2400" height="679" key="GridCell.Tab.1.left" timestamp="1601208623292">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="679" key="GridCell.Tab.1.left/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601208623292" />
+    <state width="1075" height="453" key="GridCell.Tab.1.left/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
+    <state width="1075" height="453" key="GridCell.Tab.1.left/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state width="2400" height="679" key="GridCell.Tab.1.right" timestamp="1601208623293">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="2400" height="679" key="GridCell.Tab.1.right/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601208623293" />
+    <state width="1075" height="453" key="GridCell.Tab.1.right/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209595" />
+    <state width="1075" height="453" key="GridCell.Tab.1.right/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
+    <state x="1959" y="774" key="SettingsEditor" timestamp="1601213750452">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1959" y="774" key="SettingsEditor/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213750452" />
+    <state x="950" y="465" key="com.intellij.ide.util.TipDialog" timestamp="1600690542332">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="950" y="465" key="com.intellij.ide.util.TipDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1600690542332" />
+    <state x="2105" y="747" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601211595219">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2105" y="747" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601211595219" />
+    <state x="1441" y="450" width="1043" height="1157" key="find.popup" timestamp="1601212495681">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1441" y="450" width="1043" height="1157" key="find.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601212495681" />
+    <state x="957" y="300" width="695" height="729" key="find.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1600693991139" />
+    <state x="957" y="300" width="695" height="731" key="find.popup/0.23.2560.1340@0.23.2560.1340" timestamp="1600702863786" />
+    <state x="2114" y="548" key="run.anything.popup" timestamp="1601212711003">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2114" y="548" key="run.anything.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601212711003" />
+    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup" timestamp="1601212419458">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601212419458" />
+    <state x="945" y="317" width="670" height="676" key="search.everywhere.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1600693751780" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/data/repositories/buffs/BuffsRepository.kt</url>
+          <line>171</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/data/repositories/buffs/BuffLiveEmitter.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/ui/BuffView.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/ui/adapter/AnswerViewHolder.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/ui/BuffSender.kt</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/buffsdk/src/main/java/com/buffup/sdk/ui/BuffView.kt</url>
+          <line>82</line>
+          <properties class="com.buffup.sdk.ui.BuffView" method="setUpSender" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/test/java/com/buffup/app/MainViewModelTest.kt</url>
+          <line>29</line>
+          <properties class="com.buffup.app.MainViewModelTest" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="videoView" language="kotlin" />
+        <watch expression="getChildAt(0)" language="kotlin" />
+        <watch expression="getChildAt(1)" language="kotlin" />
+        <watch expression="(this.getChildAt(0) as ViewGroup).getChildAt(0)" language="kotlin" custom="import android.view.ViewGroup" />
+        <watch expression="buff.author.last_name" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

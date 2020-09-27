@@ -1,0 +1,88 @@
+ext {
+
+    //Android Versions
+    minSdkVersion = 21
+    targetSdkVersion = 29
+    compiledSdkVersion = 29
+
+    //Application Versions
+    versionCode = 1
+    versionName = "1.0"
+    applicationId = "com.buffup.app"
+
+    //Library Versions
+    buildToolsVersion = "28.0.3"
+    androidSupportLibraryVersion = '27.1.1'
+    retrofitVersion = '2.9.0'
+    gsonVersion = '2.8.6'
+    okHttpVersion = '4.9.0'
+    mockitoVersion = '2.13.0'
+    roomVersion = '2.2.5'
+    constraintLayoutVersion = '2.0.0'
+    timberVersion = '4.7.1'
+    kotlinCoroutinesVersion = '1.3.9'
+    kotlinVersion = '1.4.10'
+    daggerVersion = '2.21'
+    lifecycleVersion = '2.2.0'
+    appcompatVersion = '1.2.0'
+    ktxVersion = '1.3.1'
+    glide_version = '4.9.0'
+
+    applicationDependencies = [
+            kotlinExtensions        : "org.jetbrains.kotlin:kotlin-android-extensions:${kotlinVersion}",
+            kotlinCore              : "androidx.core:core-ktx:${ktxVersion}",
+            kotlinCoroutinesCore    : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${kotlinCoroutinesVersion}",
+            kotlinCoroutinesAndroid : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${kotlinCoroutinesVersion}",
+            kotlin                  : "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}",
+            gson                   : "com.google.code.gson:gson:${gsonVersion}",
+            supportRecyclerView     : "androidx.recyclerview:recyclerview:1.0.0",
+            supportDesign           : "com.google.android.material:material:1.0.0-rc01",
+            appCompat               : "androidx.appcompat:appcompat:${appcompatVersion}",
+            viewModel               : "androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycleVersion}",
+            viewModelExtensions     : "androidx.lifecycle:lifecycle-extensions:${lifecycleVersion}",
+            archRuntime             : "androidx.lifecycle:lifecycle-runtime:${lifecycleVersion}",
+            reactiveStreams         : "androidx.arch.lifecycle:reactivestreams:${lifecycleVersion}",
+            okHttp                  : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogging           : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            retrofit                : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitGsonMap         : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            constraintLayout        : "androidx.constraintlayout:constraintlayout:${constraintLayoutVersion}",
+            dagger                  : "com.google.dagger:dagger:${daggerVersion}",
+            daggerSupport           : "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerProcessor         : "com.google.dagger:dagger-android-processor:${daggerVersion}",
+            daggerCompiler          : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            timber                  : "com.jakewharton.timber:timber:${timberVersion}",
+            glide                   : "com.github.bumptech.glide:glide:${glide_version}",
+            glideAnnotationProcessor: "com.github.bumptech.glide:compiler:${glide_version}",
+    ]
+
+    apiDependencies = [
+            timber                 : "com.jakewharton.timber:timber:${timberVersion}",
+            kotlinExtensions       : "org.jetbrains.kotlin:kotlin-android-extensions:${kotlinVersion}",
+            kotlinCore             : "androidx.core:core-ktx:${ktxVersion}",
+            kotlinCoroutinesCore   : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${kotlinCoroutinesVersion}",
+            kotlinCoroutinesAndroid: "org.jetbrains.kotlinx:kotlinx-coroutines-android:${kotlinCoroutinesVersion}",
+            kotlin                 : "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}",
+            retrofit               : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitGsonMap        : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            okHttp                 : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogging          : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            dagger                 : "com.google.dagger:dagger:${daggerVersion}",
+            daggerSupport          : "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerProcessor        : "com.google.dagger:dagger-android-processor:${daggerVersion}",
+            daggerCompiler         : "com.google.dagger:dagger-compiler:${daggerVersion}",
+    ]
+
+    testDependencies = [
+            mockito                 : "org.mockito:mockito-core:${mockitoVersion}",
+            mockitoAndroid          : "org.mockito:mockito-android:${mockitoVersion}",
+            mockitoInLine           : "org.mockito:mockito-inline:${mockitoVersion}",
+            junit                   : "junit:junit:4.12",
+            runner                  : "com.android.support.test:runner:1.0.2",
+            mockitoKotlin           : "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0-RC1",
+            archCore                : "android.arch.core:core-testing:1.1.1",
+            okHttpMock              : "com.squareup.okhttp3:mockwebserver:${okHttpVersion}",
+            jetBrainsAnnotations    : "org.jetbrains:annotations:16.0.1"
+    ]
+
+}
