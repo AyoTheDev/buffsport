@@ -1,7 +1,6 @@
 # Buff Sport Tech Test
 
-A sample project that streams content (buffs) over a selected video stream. clone over https via 
-https://github.com/AyoTheDev/buffsport.git
+A sample project that streams content (buffs) over a selected video stream. clone over https via: https://github.com/AyoTheDev/buffsport.git
 
 ## Libraries used in the SDK
 
