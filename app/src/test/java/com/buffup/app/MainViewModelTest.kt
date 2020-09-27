@@ -57,12 +57,12 @@ class MainViewModelTest {
         //when
         underTest.buff.observeForever(observer)
         underTest.loadBuffs()
-        //delay(30004)
+        delay(40004)
 
         //then
         //verify(buffSportApiService).getBuff(1)
-        verify(observer).onChanged(Resource.Loading(true))
-        //verify(observer).onChanged(Resource.Success(mockApiResult.result))
+        //verify(observer).onChanged(Resource.Loading(true))
+        verify(observer).onChanged(Resource.Success(mockApiResult.result))
     }
 
 

@@ -28,13 +28,13 @@ class BuffView @JvmOverloads constructor(
 
     private val adapter by lazy { AnswersAdapter(getAdapterListener()) }
 
-    private val videoView by lazy { getChildAt(3) as VideoView }
-
+    private val videoView = VideoView(context)
     private val sender = BuffSender(context)
     private val question = BuffQuestion(context)
     private val answers = RecyclerView(context)
 
     init {
+        setUpVideoView()
         setUpAnswers()
         setUpQuestion()
         setUpSender()
@@ -79,6 +79,28 @@ class BuffView @JvmOverloads constructor(
     /**
      * Set up view components
      */
+
+    private fun setUpVideoView() {
+        videoView.id = generateViewId()
+        val params = LayoutParams(
+            LayoutParams.MATCH_PARENT,
+            LayoutParams.MATCH_PARENT
+        )
+        videoView.layoutParams = params
+        addView(videoView)
+        val set = ConstraintSet()
+        set.clone(this)
+        set.connect(videoView.id, ConstraintSet.START, ConstraintSet.PARENT_ID, ConstraintSet.START)
+        set.connect(
+            videoView.id,
+            ConstraintSet.BOTTOM,
+            ConstraintSet.PARENT_ID,
+            ConstraintSet.BOTTOM
+        )
+        set.connect(videoView.id, ConstraintSet.END, ConstraintSet.PARENT_ID, ConstraintSet.END)
+        set.connect(videoView.id, ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP)
+        set.applyTo(this)
+    }
 
     private fun setUpSender() {
         sender.id = generateViewId()
@@ -143,7 +165,7 @@ class BuffView @JvmOverloads constructor(
      * Handle animations
      */
 
-    private fun animateIn(){
+    private fun animateIn() {
         val animation: Animation =
             AnimationUtils.loadAnimation(context, R.anim.entry_anim)
         animation.fillAfter = true
@@ -153,7 +175,7 @@ class BuffView @JvmOverloads constructor(
         answers.startAnimation(animation)
     }
 
-    private fun animateOut(){
+    private fun animateOut() {
         val animation: Animation =
             AnimationUtils.loadAnimation(context, R.anim.exit_anim)
         animation.fillAfter = true
@@ -163,11 +185,8 @@ class BuffView @JvmOverloads constructor(
         answers.startAnimation(animation)
     }
 
-    /**
-     * get answer listener
-     */
 
-    private fun getAdapterListener() : AnswersAdapter.Listener {
+    private fun getAdapterListener(): AnswersAdapter.Listener {
         return object : AnswersAdapter.Listener {
             override fun onClick(position: Int) {
                 //todo should add a state to show which item is clicked
