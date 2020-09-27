@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit
 class NetworkModule {
 
     companion object {
-        private const val TIME_OUT = 1L
+        private const val TIME_OUT = 30L
         private const val BASE_URL = "http://demo2373134.mockable.io/"
     }
 
@@ -38,7 +38,7 @@ class NetworkModule {
         return OkHttpClient.Builder()
             .addInterceptor(NetworkConnectivityInterceptor(context))
             .addInterceptor(NetworkResponseInterceptor())
-            .connectTimeout(TIME_OUT, TimeUnit.MINUTES)
+            .connectTimeout(TIME_OUT, TimeUnit.SECONDS)
             .build()
     }
 }

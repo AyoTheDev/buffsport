@@ -2,7 +2,7 @@ package com.buffup.app.di.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.ayo.movies.di.ViewModelFactory
+import com.buffup.app.di.ViewModelFactory
 import com.buffup.app.di.ViewModelKey
 import com.buffup.app.ui.viewmodel.MainViewModel
 import dagger.Binds

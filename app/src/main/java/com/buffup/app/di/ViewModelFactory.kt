@@ -1,4 +1,4 @@
-package com.ayo.movies.di
+package com.buffup.app.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

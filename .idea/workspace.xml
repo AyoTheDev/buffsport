@@ -107,6 +107,17 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainViewModelTest.streamBuffsTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SportBuff-app" />
+      <option name="PACKAGE_NAME" value="com.buffup.app" />
+      <option name="MAIN_CLASS_NAME" value="com.buffup.app.MainViewModelTest" />
+      <option name="METHOD_NAME" value="streamBuffsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -201,6 +212,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Android JUnit.MainViewModelTest" />
+        <item itemvalue="Android JUnit.MainViewModelTest.streamBuffsTest" />
         <item itemvalue="Android JUnit.MainViewModelTest.loadBuffsTest" />
       </list>
     </recent_temporary>
@@ -279,28 +291,28 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2328" y="1025" key="Github.ShareDialog/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601213801847" />
-    <state width="2400" height="555" key="GridCell.Tab.0.bottom" timestamp="1601217267262">
+    <state width="2400" height="555" key="GridCell.Tab.0.bottom" timestamp="1601221975948">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2400" height="555" key="GridCell.Tab.0.bottom/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601217267262" />
+    <state width="2400" height="555" key="GridCell.Tab.0.bottom/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601221975948" />
     <state width="1075" height="453" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
     <state width="1075" height="453" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
-    <state width="2400" height="555" key="GridCell.Tab.0.center" timestamp="1601217267261">
+    <state width="2400" height="555" key="GridCell.Tab.0.center" timestamp="1601221975948">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2400" height="555" key="GridCell.Tab.0.center/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601217267261" />
+    <state width="2400" height="555" key="GridCell.Tab.0.center/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601221975948" />
     <state width="1075" height="453" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209593" />
     <state width="1075" height="453" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342519" />
-    <state width="2400" height="555" key="GridCell.Tab.0.left" timestamp="1601217267261">
+    <state width="2400" height="555" key="GridCell.Tab.0.left" timestamp="1601221975948">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2400" height="555" key="GridCell.Tab.0.left/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601217267261" />
+    <state width="2400" height="555" key="GridCell.Tab.0.left/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601221975948" />
     <state width="1075" height="453" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209593" />
     <state width="1075" height="453" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342519" />
-    <state width="2400" height="555" key="GridCell.Tab.0.right" timestamp="1601217267261">
+    <state width="2400" height="555" key="GridCell.Tab.0.right" timestamp="1601221975948">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2400" height="555" key="GridCell.Tab.0.right/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601217267261" />
+    <state width="2400" height="555" key="GridCell.Tab.0.right/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601221975948" />
     <state width="1075" height="453" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1600694209594" />
     <state width="1075" height="453" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1600703342520" />
     <state width="2400" height="679" key="GridCell.Tab.1.bottom" timestamp="1601208623293">
@@ -339,20 +351,20 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2105" y="747" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601211595219" />
-    <state x="1441" y="450" width="1043" height="1157" key="find.popup" timestamp="1601212495681">
+    <state x="1441" y="450" width="1043" height="1157" key="find.popup" timestamp="1601222244857">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1441" y="450" width="1043" height="1157" key="find.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601212495681" />
+    <state x="1441" y="450" width="1043" height="1157" key="find.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601222244857" />
     <state x="957" y="300" width="695" height="729" key="find.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1600693991139" />
     <state x="957" y="300" width="695" height="731" key="find.popup/0.23.2560.1340@0.23.2560.1340" timestamp="1600702863786" />
     <state x="2114" y="548" key="run.anything.popup" timestamp="1601212711003">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2114" y="548" key="run.anything.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601212711003" />
-    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup" timestamp="1601216783417">
+    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup" timestamp="1601218916718">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601216783417" />
+    <state x="1418" y="466" width="1005" height="1072" key="search.everywhere.popup/0.0.3840.2120/-2160.-1435.1440.2520@0.0.3840.2120" timestamp="1601218916718" />
     <state x="945" y="317" width="670" height="676" key="search.everywhere.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1600693751780" />
   </component>
   <component name="XDebuggerManager">
@@ -394,7 +406,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
           <url>file://$PROJECT_DIR$/app/src/test/java/com/buffup/app/MainViewModelTest.kt</url>
-          <line>29</line>
+          <line>31</line>
           <properties class="com.buffup.app.MainViewModelTest" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>

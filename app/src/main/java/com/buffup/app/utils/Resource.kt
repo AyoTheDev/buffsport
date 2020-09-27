@@ -1,4 +1,4 @@
-package com.ayo.movies.utils
+package com.buffup.app.utils
 
 import java.lang.Exception
 

@@ -7,7 +7,6 @@ import retrofit2.http.Path
 
 interface Endpoints {
 
-    //should be able to get buffs as a stream or in a list
     @GET("buffs/{id}")
     suspend fun getBuff(@Path("id") id: Int): Response<ApiResult>
 

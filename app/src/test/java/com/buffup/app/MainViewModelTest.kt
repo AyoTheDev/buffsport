@@ -3,19 +3,21 @@ package com.buffup.app
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.buffup.app.common.TestContextProvider
-import com.ayo.movies.utils.Resource
+import com.buffup.app.utils.Resource
 import com.buffup.app.ui.viewmodel.MainViewModel
 import com.buffup.sdk.model.ApiResult
 import com.buffup.sdk.model.Author
 import com.buffup.sdk.model.Buff
 import com.buffup.sdk.model.Question
 import com.buffup.sdk.services.BuffSportApiService
-import com.nhaarman.mockitokotlin2.doReturn
-import com.nhaarman.mockitokotlin2.mock
-import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.whenever
-import kotlinx.coroutines.*
+import com.nhaarman.mockitokotlin2.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.test.TestCoroutineDispatcher
 import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.runBlockingTest
 import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Before
@@ -29,7 +31,8 @@ import org.mockito.junit.MockitoJUnitRunner
 @RunWith(MockitoJUnitRunner::class)
 class MainViewModelTest {
 
-    private val mainThreadSurrogate = newSingleThreadContext("UI thread")
+    @ExperimentalCoroutinesApi
+    private val testDispatcher = TestCoroutineDispatcher()
 
     @get:Rule
     var rule: TestRule = InstantTaskExecutorRule()
@@ -40,31 +43,38 @@ class MainViewModelTest {
     lateinit var buffSportApiService: BuffSportApiService
 
 
+    @ExperimentalCoroutinesApi
     @Before
     fun setUp() {
-        Dispatchers.setMain(mainThreadSurrogate)
+        Dispatchers.setMain(testDispatcher)
         underTest = MainViewModel(TestContextProvider(), buffSportApiService)
     }
 
+
+    @ExperimentalCoroutinesApi
     @Test
-    fun loadBuffsTest(): Unit = runBlocking {
+    fun streamBuffsTest(): Unit = runBlockingTest  {
 
         //given
-        val buff = mockApiResult
         val observer: Observer<Resource<Buff>> = mock()
-        whenever(buffSportApiService.getBuff(1)).doReturn(mockApiResult)
+        whenever(buffSportApiService.buffs).doReturn(mockFlow)
 
         //when
         underTest.buff.observeForever(observer)
-        underTest.loadBuffs()
-        delay(40004)
+        underTest.streamBuffs()
 
         //then
-        //verify(buffSportApiService).getBuff(1)
-        //verify(observer).onChanged(Resource.Loading(true))
         verify(observer).onChanged(Resource.Success(mockApiResult.result))
     }
 
+    @ExperimentalCoroutinesApi
+    @After
+    fun tearDown() {
+        Dispatchers.resetMain()
+        testDispatcher.cleanupTestCoroutines()
+    }
+
+    private val mockFlow: Flow<Buff> = flow { emit(mockApiResult.result) }
 
     private val mockApiResult =
         ApiResult(
@@ -76,12 +86,6 @@ class MainViewModelTest {
             )
         )
 
-    @ExperimentalCoroutinesApi
-    @After
-    fun tearDown() {
-        Dispatchers.resetMain()
-        mainThreadSurrogate.close()
-    }
 
 }
 

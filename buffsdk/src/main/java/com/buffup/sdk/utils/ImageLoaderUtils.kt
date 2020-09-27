@@ -26,7 +26,6 @@ object ImageLoaderUtils {
     }
 
     private val requestOptions = RequestOptions()
-        //.error(R.drawable.ic_placeholder)
         .diskCacheStrategy(DiskCacheStrategy.ALL)
         .override(300, 600)
 

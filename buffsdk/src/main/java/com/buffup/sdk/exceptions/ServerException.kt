@@ -1,3 +1,3 @@
 package com.buffup.sdk.exceptions
 
-class ServerException(code: Int, message: String) : NetworkException(code, message)
+class ServerException(code: Int, message: String?) : NetworkException(code, message)

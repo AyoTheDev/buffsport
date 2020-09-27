@@ -8,10 +8,10 @@ import com.buffup.sdk.exceptions.ServerException
 import com.buffup.sdk.model.Buff
 import com.buffup.sdk.services.BuffSportApiService
 import com.buffup.app.common.CoroutineContextProvider
-import com.ayo.movies.utils.Resource
-import com.ayo.movies.utils.Resource.Success
+import com.buffup.app.utils.Resource
+import com.buffup.app.utils.Resource.Success
 import com.buffup.app.common.BaseViewModel
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import javax.inject.Inject
@@ -30,21 +30,9 @@ class MainViewModel @Inject constructor(
         _buff.postValue(Resource.Loading(true))
     }
 
-    fun loadBuffs() = load(viewModelScope.launch {
+    fun streamBuffs() = load(viewModelScope.launch {
         try {
-
-            var id = 1
-
-            while (id <= 5) {
-                delay(30000)
-                //delay(2000)
-                buffSportApiService.getBuff(id)?.result?.let { buff ->
-                    _buff.postValue(Success(buff))
-                }
-
-                ++id
-            }
-
+            buffSportApiService.buffs.collect { buff -> _buff.postValue(Success(buff)) }
         } catch (e: NoNetworkException) {
             _buff.postValue(Resource.Failure("Please connect to the internet", e))
             Timber.e(e)
