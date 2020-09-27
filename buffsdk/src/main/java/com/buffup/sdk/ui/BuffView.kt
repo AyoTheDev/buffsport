@@ -49,17 +49,7 @@ class BuffView @JvmOverloads constructor(
         question.visibility = View.VISIBLE
 
         val timeToShow: Long = (buff.time_to_show * 1000).toLong()
-        countDownTimer = object : CountDownTimer(timeToShow, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                val countDownString = (millisUntilFinished / 1000).toString()
-                question.setCountDown(countDownString)
-            }
-
-            override fun onFinish() {
-                animateOut()
-            }
-
-        }
+        countDownTimer = createCountdownTimer(timeToShow)
         val senderName = "${buff.author.first_name} ${buff.author.last_name}"
         sender.setName(senderName)
         question.apply {
@@ -79,6 +69,18 @@ class BuffView @JvmOverloads constructor(
     /**
      * Set up view components
      */
+
+    private fun createCountdownTimer(timeToShow: Long) : CountDownTimer {
+        return object : CountDownTimer(timeToShow, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                val countDownString = (millisUntilFinished / 1000).toString()
+                question.setCountDown(countDownString)
+            }
+            override fun onFinish() {
+                animateOut()
+            }
+        }
+    }
 
     private fun setUpVideoView() {
         videoView.id = generateViewId()
@@ -189,7 +191,6 @@ class BuffView @JvmOverloads constructor(
     private fun getAdapterListener(): AnswersAdapter.Listener {
         return object : AnswersAdapter.Listener {
             override fun onClick(position: Int) {
-                //todo should add a state to show which item is clicked
                 countDownTimer.cancel()
                 question.dismissProgressBar()
 
